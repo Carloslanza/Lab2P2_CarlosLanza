@@ -16,6 +16,10 @@ public class Conferenciasvirtuales {
         this.enlaceAcceso = enlaceAcceso;
     }
 
+    public Conferenciasvirtuales(String titulo, String conferencista, String fecha, int duracionHoras, String enlaceAcceso) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public String getTitulo() {
         return titulo;
     }

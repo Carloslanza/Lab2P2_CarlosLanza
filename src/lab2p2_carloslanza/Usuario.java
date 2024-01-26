@@ -36,4 +36,8 @@ public class Usuario {
         this.tipoUsuario = tipoUsuario;
     }
 
+    public Object getContrasena() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

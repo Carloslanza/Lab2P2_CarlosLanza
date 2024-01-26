@@ -14,6 +14,10 @@ public class Cursosenlinea {
         this.plataforma = plataforma;
     }
 
+    public Cursosenlinea(String titulo, String instructor, int duracionSemanas, String plataformaEnsenanza) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public String getTitulo() {
         return titulo;
     }

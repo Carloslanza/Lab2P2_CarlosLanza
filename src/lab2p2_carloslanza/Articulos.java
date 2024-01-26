@@ -56,4 +56,9 @@ public class Articulos {
         this.accesoEnLinea = accesoEnLinea;
     }
 
+    @Override
+    public String toString() {
+        return "Articulos{" + "titulo=" + titulo + ", autor=" + autor + ", tema=" + tema + ", fechaPublicacion=" + fechaPublicacion + ", accesoEnLinea=" + accesoEnLinea + '}';
+    }
+    
 }
